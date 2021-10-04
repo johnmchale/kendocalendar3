@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <Calendar value={date} onChange={handleChange} />
-      <h1>Selected date: {date?.toDateString()}</h1>
+      <h1>Selected date : {date?.toDateString()}</h1>
     </div>
   );
 };
